@@ -1,0 +1,5 @@
+com\qa\test\TestLoginPage.class
+com\qa\test\TestRegistrationPage.class
+com\qa\test\TestRadioButtonDropDown.class
+com\qa\test\OneWayFowTest.class
+com\qa\test\TestAllLinks.class

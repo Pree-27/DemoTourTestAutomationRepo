@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="63439" started-at="2020-04-04T22:57:12 IST" finished-at="2020-04-04T22:58:16 IST">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="63439" started-at="2020-04-04T22:57:12 IST" finished-at="2020-04-04T22:58:16 IST">
+      <class name="com.qa.test.TestLoginPage">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.qa.test.TestLoginPage@21213b92]" name="launchBrowser" is-config="true" duration-ms="5975" started-at="2020-04-04T22:57:37 IST" finished-at="2020-04-04T22:57:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="logInWithValidUnameInvalidPassword()[pri:1, instance:com.qa.test.TestLoginPage@21213b92]" name="logInWithValidUnameInvalidPassword" duration-ms="3288" started-at="2020-04-04T22:57:43 IST" finished-at="2020-04-04T22:57:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInWithValidUnameInvalidPassword -->
+        <test-method status="PASS" signature="logInWithInvalidUnamevalidPassword()[pri:2, instance:com.qa.test.TestLoginPage@21213b92]" name="logInWithInvalidUnamevalidPassword" duration-ms="2427" started-at="2020-04-04T22:57:46 IST" finished-at="2020-04-04T22:57:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInWithInvalidUnamevalidPassword -->
+        <test-method status="PASS" signature="logInWithInvalidUnameInvalidPassword()[pri:3, instance:com.qa.test.TestLoginPage@21213b92]" name="logInWithInvalidUnameInvalidPassword" duration-ms="3195" started-at="2020-04-04T22:57:48 IST" finished-at="2020-04-04T22:57:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInWithInvalidUnameInvalidPassword -->
+        <test-method status="PASS" signature="logInWithValidData()[pri:4, instance:com.qa.test.TestLoginPage@21213b92]" name="logInWithValidData" duration-ms="3565" started-at="2020-04-04T22:57:52 IST" finished-at="2020-04-04T22:57:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInWithValidData -->
+        <test-method status="PASS" signature="teardownBrowser()[pri:0, instance:com.qa.test.TestLoginPage@21213b92]" name="teardownBrowser" is-config="true" duration-ms="36" started-at="2020-04-04T22:57:55 IST" finished-at="2020-04-04T22:57:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownBrowser -->
+      </class> <!-- com.qa.test.TestLoginPage -->
+      <class name="com.qa.test.TestAllLinks">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.qa.test.TestAllLinks@71318ec4]" name="launchBrowser" is-config="true" duration-ms="8844" started-at="2020-04-04T22:57:13 IST" finished-at="2020-04-04T22:57:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="brokenLinkTest()[pri:0, instance:com.qa.test.TestAllLinks@71318ec4]" name="brokenLinkTest" duration-ms="15127" started-at="2020-04-04T22:57:21 IST" finished-at="2020-04-04T22:57:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- brokenLinkTest -->
+        <test-method status="PASS" signature="teardownBrowser()[pri:0, instance:com.qa.test.TestAllLinks@71318ec4]" name="teardownBrowser" is-config="true" duration-ms="126" started-at="2020-04-04T22:57:37 IST" finished-at="2020-04-04T22:57:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownBrowser -->
+      </class> <!-- com.qa.test.TestAllLinks -->
+      <class name="com.qa.test.TestRadioButtonDropDown">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.qa.test.TestRadioButtonDropDown@a67c67e]" name="launchBrowser" is-config="true" duration-ms="5785" started-at="2020-04-04T22:57:55 IST" finished-at="2020-04-04T22:58:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="logInWithValidData()[pri:1, instance:com.qa.test.TestRadioButtonDropDown@a67c67e]" name="logInWithValidData" duration-ms="3127" started-at="2020-04-04T22:58:01 IST" finished-at="2020-04-04T22:58:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInWithValidData -->
+        <test-method status="PASS" signature="radiobuttonTest()[pri:2, instance:com.qa.test.TestRadioButtonDropDown@a67c67e]" name="radiobuttonTest" duration-ms="113" started-at="2020-04-04T22:58:04 IST" finished-at="2020-04-04T22:58:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- radiobuttonTest -->
+      </class> <!-- com.qa.test.TestRadioButtonDropDown -->
+      <class name="com.qa.test.TestRegistrationPage">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.qa.test.TestRegistrationPage@3327bd23]" name="launchBrowser" is-config="true" duration-ms="5985" started-at="2020-04-04T22:58:04 IST" finished-at="2020-04-04T22:58:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="registerUser()[pri:0, instance:com.qa.test.TestRegistrationPage@3327bd23]" name="registerUser" duration-ms="5702" started-at="2020-04-04T22:58:10 IST" finished-at="2020-04-04T22:58:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerUser -->
+        <test-method status="PASS" signature="teardownBrowser()[pri:0, instance:com.qa.test.TestRegistrationPage@3327bd23]" name="teardownBrowser" is-config="true" duration-ms="82" started-at="2020-04-04T22:58:16 IST" finished-at="2020-04-04T22:58:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownBrowser -->
+      </class> <!-- com.qa.test.TestRegistrationPage -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
